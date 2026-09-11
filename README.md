@@ -1,1 +1,11 @@
-Hai Saya Mahasiswa D4 Rekayasa Perangkat Lunak Politeknik Negeri Indramayu
+# Profil Mahasiswa
+
+Project latihan Sistem Terdistribusi.
+
+## Deskripsi
+
+Project ini dibuat untuk latihan penggunaan Git dan GitHub.
+
+## Author
+
+Rachmat Fauzi Ramdhani
