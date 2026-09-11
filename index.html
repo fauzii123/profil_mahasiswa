@@ -1,0 +1,189 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #2563eb;
+            color: white;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: 80%;
+            max-width: 900px;
+            margin: 40px auto;
+        }
+
+        .hero {
+            text-align: center;
+            background-color: white;
+            padding: 60px 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            margin-bottom: 25px;
+            color: #666;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+
+        .card h2 {
+            margin-bottom: 20px;
+            color: #2563eb;
+        }
+
+        .data p {
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            line-height: 1.7;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1f2937;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Profil Mahasiswa</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#profil">Profil</a>
+            <a href="#tentang">Tentang</a>
+        </nav>
+    </header>
+
+    <!-- Isi Halaman -->
+    <main>
+
+        <!-- Home -->
+        <section id="home" class="hero">
+            <h2>Halo, Saya Fauzi 👋</h2>
+
+            <p>
+                Selamat datang di halaman profil mahasiswa saya.
+            </p>
+
+            <a href="#profil" class="button">
+                Lihat Profil
+            </a>
+        </section>
+
+        <!-- Profil -->
+        <section id="profil" class="card">
+            <h2>Data Mahasiswa</h2>
+
+            <div class="data">
+                <p>
+                    <strong>Nama:</strong>
+                    Rachmat Fauzi Ramdhani
+                </p>
+
+                <p>
+                    <strong>Program Studi:</strong>
+                    D4 Rekayasa Perangkat Lunak
+                </p>
+
+                <p>
+                    <strong>Semester:</strong>
+                    7
+                </p>
+
+                <p>
+                    <strong>Mata Kuliah:</strong>
+                    Sistem Terdistribusi
+                </p>
+            </div>
+        </section>
+
+        <!-- Tentang -->
+        <section id="tentang" class="card">
+            <h2>Tentang Saya</h2>
+
+            <p>
+                Saya merupakan mahasiswa yang sedang belajar mengenai
+                pengembangan perangkat lunak dan sistem terdistribusi.
+                Halaman ini dibuat sebagai latihan menggunakan HTML,
+                CSS, Git, dan GitHub.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Profil Mahasiswa</p>
+    </footer>
+
+</body>
+</html>
+```
