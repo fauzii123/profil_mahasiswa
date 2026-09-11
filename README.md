@@ -1,11 +1,17 @@
 # Profil Mahasiswa
 
-Project latihan Sistem Terdistribusi.
+Repository ini berisi project sederhana tentang profil mahasiswa yang dibuat sebagai latihan dalam mata kuliah Sistem Terdistribusi.
 
-## Deskripsi
+## Tujuan
 
-Project ini dibuat untuk latihan penggunaan Git dan GitHub.
+Project ini digunakan untuk latihan membuat project, mengelola source code, serta menggunakan Git dan GitHub.
 
-## Author
+## Informasi
 
-Rachmat Fauzi Ramdhani
+* Nama: Rachmat Fauzi Ramdhani
+* Mata Kuliah: Sistem Terdistribusi
+* Semester: 7
+
+## Catatan
+
+Project ini dibuat untuk keperluan latihan dan pembelajaran.
